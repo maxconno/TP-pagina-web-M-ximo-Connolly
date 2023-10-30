@@ -1,22 +1,132 @@
-body{
-    background-color: rgb(110, 167, 26);
-}
-
-#carrito_de_compra{
-    width: 2.5%;
-    height: 2.5%;
-}
-
-#titulo{
-    font-size: 40px;
-    margin: 10px;
-    width: 100vw;
-}
-
 .header{
-    background-color: darkorange;
+    background-color: orange;
+    width: 98.8399vw;
+    height:13.24vh;
+    margin-top: 0;
 }
+
+.header #titulo{
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 0.5em;
+    margin-bottom: 0;
+    margin-top: 0em;
+    width: 19vw;
+    height: 4vh;
+    padding-top: 0.2em;
+    display: block;
+}
+
+.header #subtitulo{
+    font-size: 1em;
+    display: block;
+    margin-left: 0.72em;
+    margin-top: 1em;
+    height: 0;
+}  
+
+#buscar{
+    position: relative;
+    left: 50em;
+    top: -3.7em;
+    width: 19vw;
+}
+
+.header #almuerzo, #copas, #manteles, #te{
+    margin: 5em;
+    padding-top: 1em;
+    position: relative;
+    left: 4.3em;
+    top: 1.5em;
+}
+
+.header #manteles{
+    margin-right: 0em;
+}
+
+.header #te{
+    margin-left: 1em;
+}
+
+.header #carrito_de_compra{ 
+    width: 2.5vw;
+    height: 5vh;
+    position: relative;
+    left: 57em;
+    top: 4.6em;
+}
+
+.header .flex{
+    background-color: #a52a2a;
+    width: 98.8399vw;
+    height: 10vh;
+    margin: auto;
+}
+
+#opciones3{
+    position: absolute;
+    top: 40em;
+}
+
+.tazas{
+    margin-left: 0.5em;
+}
+
+.platos{
+    margin-left: 0.5em;
+}
+
+.cubiertos{
+    margin-left: 0.5em;
+}
+
+.tazas #foto_tazas{
+    height: 40vh;
+    width: 22.15vw;
+    position: relative;
+    left: 18.5em;
+}
+
+.platos #foto_platos{
+    height: 40vh;
+    width: 22.15vw;
+    position: relative;
+    left: 38.3em;
+    bottom: 21em;
+}
+
+.cubiertos #foto_cubiertos{
+    height: 40vh;
+    width: 22.15vw;
+    position: relative;
+    left: 28.5em;
+    bottom: 23em;
+}
+
+.tazas #taza{
+    position: relative;
+    left: 25.3em;
+    top: 10.2em;
+    z-index: 1;
+}
+
+.platos #plato{
+    position: relative;
+    top: -10.64em;
+    left: 45em;
+    z-index: 51;
+}
+
+.cubiertos #cubierto{
+    position: relative;
+    top: -13em;
+    left: 34.4em;
+    z-index: 101;
+}
+
 
 .footer{
     background-color: #a52a2a;
-}
+    position: relative;
+    top: 80em;
+} 
